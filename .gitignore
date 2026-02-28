@@ -1,5 +1,129 @@
+# ==========================================
+# PYTHON & VIRTUAL ENVIRONMENTS
+# ==========================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+venv/
+env/
+ENV/
+.venv
 .venv/
+
+# ==========================================
+# ENVIRONMENT & CREDENTIALS
+# ==========================================
 .env
+.env.local
+.env.*.local
+firebase_config.json
+serviceAccountKey.json
+
+# ==========================================
+# IDE & EDITOR
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# LARGE FILES & MODELS
+# ==========================================
+*.pt          # PyTorch model weights
+*.pth         # PyTorch models
+*.onnx        # ONNX models
+*.h5          # Keras models
+*.pkl         # Pickle files
+*.pickle      # Pickle files
+
+# ==========================================
+# VIDEO & MEDIA
+# ==========================================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# ==========================================
+# DATASETS (Not for version control)
+# ==========================================
+dataset/
+datasets/
+data/
+!dataset/data.yaml
+!dataset/README*
+
+# ==========================================
+# TRAINING & EXPERIMENT OUTPUTS
+# ==========================================
+runs/
+logs/
+wandb/
+checkpoints/
+results/
+outputs/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+temp/
+*.log
+.cache/
+
+# ==========================================
+# TESTING
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==========================================
+# OS SPECIFIC
+# ==========================================
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# PROJECT SPECIFIC IGNORES
+# ==========================================
+# Node.js (if applicable)
+node_modules/
+npm-debug.log
+
+# Java/Gradle (if applicable)
+.gradle/
+build/
+*.class
